@@ -1,0 +1,12 @@
+@mixin background-image($color: #f4f8fd){
+	background-color: $color;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+}
+
+@mixin center-both($top: 45%){
+	position: absolute;
+  top: $top;
+  transform: translateY(-50%);
+}

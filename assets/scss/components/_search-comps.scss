@@ -1,0 +1,38 @@
+#search-title{
+	font-family: $font-quicksand;
+	font-size: 2rem;
+}
+
+#search-list-content{
+	.loader-text{
+		font-family: $font-lato;
+		font-size: 1rem;
+	}
+
+	.search-result-title{
+		font-family: $font-quicksand;
+		font-size: 1rem;
+	}
+
+	.card-list-anime{
+		border-radius: 10px;
+		position: relative;
+
+		.card-body{
+			position: relative;
+		}
+
+		.list-anime-img{
+			height: 80px;
+			width: 80px;
+			border-radius: 10px;
+			@include background-image();
+		}
+
+		.list-anime-title{
+			font-family: $font-lato;
+			font-size: 1rem;
+			@include center-both();
+		}
+	}
+}

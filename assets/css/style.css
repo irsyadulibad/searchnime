@@ -1,0 +1,76 @@
+.base-container {
+  min-height: 90vh;
+}
+
+#search-title {
+  font-family: Quicksand, sans-serif;
+  font-size: 2rem;
+}
+
+#search-list-content .loader-text {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+}
+#search-list-content .search-result-title {
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+}
+#search-list-content .card-list-anime {
+  border-radius: 10px;
+  position: relative;
+}
+#search-list-content .card-list-anime .card-body {
+  position: relative;
+}
+#search-list-content .card-list-anime .list-anime-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: #f4f8fd;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+#search-list-content .card-list-anime .list-anime-title {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+table {
+  margin-top: 5px;
+}
+table tr td {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#anime-title {
+  font-family: "Lato", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.anime-detail {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+}
+
+.anime-synopsis {
+  font-family: "Lato", serif;
+  font-size: 1rem;
+}
+
+footer {
+  border-top: 1px solid #8e9091;
+  margin-top: 40px;
+  padding-top: 10px;
+}
+footer p {
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
